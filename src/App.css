@@ -1,0 +1,12 @@
+
+body{
+  padding: 0;
+  margin: 0;
+  position: relative;
+  background: #1c1e27;
+
+
+}
+html{
+  scroll-behavior: smooth;
+}

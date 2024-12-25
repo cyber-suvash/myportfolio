@@ -1,0 +1,19 @@
+.sidebar-icons{
+    display: none;
+   
+
+}
+
+
+
+@media (max-width:768px) {
+    .sidebar-icons{
+        
+    display: block;
+
+   
+    }
+    .icon{
+        margin-right: 20px;
+    }
+}

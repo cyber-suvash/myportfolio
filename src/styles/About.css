@@ -1,0 +1,41 @@
+
+.mainbox{
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  
+ 
+}
+.about{
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    
+}
+.mainbox h2{
+    font-size: 3rem;
+    margin-top: 30px;
+}
+.mainbox h2 span{
+    color: var(--primarycolor)
+}
+.self{
+    font-size: 1.4rem;
+    padding: 10px;
+   
+}
+
+
+@media (max-width:768px) {
+    
+    .mainbox h2{
+        font-size: 2rem;
+    }
+    .self{
+        font-size: 1.2rem;
+    }
+
+}

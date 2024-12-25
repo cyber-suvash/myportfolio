@@ -1,0 +1,127 @@
+.contact-main {
+  height: 100vh;
+  /* background:linear-gradient(#ff9671,#845ec2,#0081cf); */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  
+  position: relative;
+ 
+}
+
+.left-form img {
+  height: 50vh;
+}
+.formlist {
+  border-radius: 30px;
+  border: 2px solid black;
+  padding: 30px;
+  box-shadow: 0 0 20px 5px rgba(205, 220, 236, 0.752);
+  margin: 0 auto;
+}
+
+.formlist h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.formlist span {
+  color: var(--primarycolor);
+}
+.input-field {
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+.input-field label {
+  font-size: 1.3rem;
+}
+.input-field input {
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  padding: 10px;
+  background: transparent;
+  color: aliceblue;
+}
+.input-field span {
+  background-color: var(--primarycolor);
+  color: aliceblue;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+}
+.input-field input::placeholder {
+  color: aliceblue;
+}
+.textfield {
+  width: 100%;
+  height: 15vh;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  background: var(--primarycolor);
+  color: aliceblue;
+}
+.textfield::placeholder {
+  font-size: 1.5rem;
+  color: aliceblue;
+}
+.submitbtn {
+  padding: 15px 30px;
+  width: 100%;
+  border: none;
+  margin-top: 10px;
+  border-radius: 30px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  background-color: var(--primarycolor);
+  color: aliceblue;
+  text-transform: capitalize;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.submitbtn:hover {
+  color: #df4a1d;
+  background: #fff;
+}
+
+@media (max-width: 768px) {
+  .contact-main {
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .left-form img {
+    height: 130px;
+  }
+  .formlist {
+    width: 85%;
+    padding: 10px;
+  }
+  .formlist h2 {
+    font-size: 1.4rem;
+  }
+  .input-field label {
+    font-size: 1rem;
+  }
+
+  .input-field input ::placeholder {
+    font-size: 0.7rem;
+  }
+  .input-field span {
+    padding: 0 0 0 5px;
+  }
+
+  .textfield::placeholder {
+    font-size: 0.9rem;
+  }
+  .submitbtn {
+    font-size: 1.2rem;
+    
+    width: 100%;
+  }
+}

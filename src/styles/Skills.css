@@ -1,0 +1,63 @@
+
+
+.main-skill{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+   
+}
+.skills{
+    background: #595967b4;
+    margin: 80px 0 0 0;
+    padding: 40px;
+    height: 30vh;
+    text-align: center;
+    width: 50vw;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(227, 48, 48, 0.964); 
+}
+
+.skills span{
+    color:#fc5f2f;
+}
+.skills h2{
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+.img-file{
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+   
+}
+
+.img-file img{
+    height: 60px;
+    border-radius: 10px;
+    margin-right: 10px;
+    transition: all 0.4s;
+}
+.img-file img:hover{
+    transform: scale(1.2);
+}
+
+
+/* Media quary */
+
+@media (max-width:768px) {
+    .skills{
+        width: 300px;
+        padding: 10px;
+
+    }
+   .skills h2{
+    font-size: 1.8rem;
+   }
+   .img-file img{
+    height: 40px;
+   }
+    
+}
