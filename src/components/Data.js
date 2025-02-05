@@ -5,7 +5,7 @@ import css from "../assets/photos/css-3.png";
 import js from "../assets/photos/js.png";
 import mysql from "../assets/photos/mysql.svg";
 import react from "../assets/photos/react.png";
-
+import btstrap from '../assets/photos/bootstrap.png'
 import xss from "../assets/photos/xss.png"
 import weather from "../assets/photos/weather.png"
 import xplore from "../assets/photos/xplore.png"
@@ -60,6 +60,10 @@ const skills = [
     name: "React.js",
     image: react,
   },
+  {
+    name:"bootstrap",
+    image:btstrap
+  }
 ];
 
 const projects = [

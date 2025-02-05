@@ -52,7 +52,7 @@ p {
   cursor: pointer;
 }
 .btn-icon:hover {
-  transform: rotate(40deg);
+  transform:scale(1.2)
 }
 
 .btn button {

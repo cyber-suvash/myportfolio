@@ -40,6 +40,9 @@ const Skills = () => {
       <Tooltip title="React.js">
         <div><img src={skills[5].image} alt="" /></div>
       </Tooltip>
+      <Tooltip title="Bootstrap">
+        <div><img src={skills[6].image} alt="" /></div>
+      </Tooltip>
    
       </div>
       
