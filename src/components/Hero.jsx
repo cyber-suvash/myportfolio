@@ -1,5 +1,5 @@
 import "../styles/Hero.css";
-import pdf_resume from "../Resume/resume.pdf";
+import pdf_resume from "../Resume/new_resume.pdf";
 import pic from "../assets/photos/hacker.png";
 import Typed from "typed.js";
 import { useRef, useEffect } from "react";

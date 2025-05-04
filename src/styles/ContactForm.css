@@ -1,12 +1,9 @@
 .contact-main {
   height: 100vh;
-  /* background:linear-gradient(#ff9671,#845ec2,#0081cf); */
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  
   position: relative;
- 
 }
 
 .left-form img {
@@ -14,10 +11,10 @@
 }
 .formlist {
   border-radius: 30px;
-  border: 2px solid black;
   padding: 30px;
   box-shadow: 0 0 20px 5px rgba(205, 220, 236, 0.752);
   margin: 0 auto;
+  backdrop-filter: blur(10px);
 }
 
 .formlist h2 {
@@ -86,8 +83,26 @@
   align-items: center;
 }
 .submitbtn:hover {
-  color: #df4a1d;
+  color: #df4a1dd8;
   background: #fff;
+}
+
+.spinner {
+  display: inline-block;
+  border: 3px solid #f3f3f3;
+  border-top: 3px solid #007bff;
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  color: #f3f3f3;
+  animation: spin 0.8s linear infinite;
+  vertical-align: middle;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 @media (max-width: 768px) {
@@ -96,7 +111,7 @@
     justify-content: space-evenly;
   }
   .left-form img {
-    height: 130px;
+    height: 150px;
   }
   .formlist {
     width: 85%;
@@ -121,7 +136,7 @@
   }
   .submitbtn {
     font-size: 1.2rem;
-    
+
     width: 100%;
   }
 }
